@@ -2,13 +2,14 @@
 import time
 import telebot
 import config
+import token
 from telebot import types
-from Dictionary import list 
+from Dictionary import list
 #from Dictionary import ListА, ListБ, ListВ, ListГ, ListД, ListЕ, ListЁ, ListЖ, ListЗ, ListИ
 #from Dictionary import ListН, ListО, ListП, ListР, ListС, ListТ, ListУ, ListФ, ListХ, ListЙ
 #from Dictionary import ListЦ, ListЧ, ListШ, ListЩ, ListЭ, ListЮ, ListЯ, ListК, ListЛ, ListМ
 
-bot = telebot.TeleBot(config.TOKEN)
+bot = telebot.TeleBot(token.TOKEN)
 
 button_start = "Начать игру"
 button_help = "Помощь"
